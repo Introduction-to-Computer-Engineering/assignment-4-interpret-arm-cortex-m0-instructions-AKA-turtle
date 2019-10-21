@@ -30,7 +30,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | .L4: | | _Label (corresponds to the address of the first following instruction)_ |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r3, #0` |Place the value zero into r3|
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` |Move r3 to r0|
-| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #12` |Add 12 to stack pointer |
+| | [add](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABFFEJF.html)     `sp, sp, #12` |Add 12 to stack pointer and store in stack pointer|
 | | [pop](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABIAJHJ.html)     `{pc}` |Pop the stack, then branch to new PC|
 
 ### Footnotes
